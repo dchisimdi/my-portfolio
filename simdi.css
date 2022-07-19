@@ -1,21 +1,19 @@
-.home-header{
+.home-header {}
 
-}
- 
-.home-ul{
+.home-ul {
    text-decoration: none;
    list-style: none;
-   display:flex;
+   display: flex;
    justify-content: flex-end;
 
-} 
-
-.home-ul li{
-   font-size: 20px;
-   color:blue
 }
 
-h2{
+.home-ul li {
+   font-size: 20px;
+   color: blue
+}
+
+h2 {
    font-size: 40px;
 }
 
@@ -23,36 +21,61 @@ h2{
    color: black;
    font-size: 20px;
    font-weight: 500;
-}img {
-   
-   border-radius:500px; 
+}
+.myImg {
+   border-radius: 500px;
+   height: 200px;
+   width: 200px;
 }
 
-img{
-height:200px;
-   width:200px;
-}
-.sect-one{
+.sect-one {
    display: flex;
    padding: 40px;
 }
-.SIMDI{
+
+.SIMDI {
    text-decoration: none;
-padding: 10px;
+   padding: 10px;
 }
- .was{
+
+.was {
+
+   color: tomato;
+}
+
+.simdis-button {
+   background-color: red;
+   border: 500px;
+   padding: 20px;
+}
+
+#lion {
+   display: flex;
+}
+
+#sect-two-first-child {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* background-color: white; */
+}
+#section-two-second-child{
+   display: flex;
+   justify-content: space-between;
+   /* background-color: white; */
    
-color: tomato;
 }
-button{
-background-color: red;
-border: 500px;
-padding: 20px;
+.sim {
+   background-color: white;
 }
-   #lion{
-      display: flex;
-   }
-   #sect-two-first-child{
-      display:flex;
-      justify-content: space-between;
-   }
+#sect-two-left{
+   margin-right:20px;
+}
+
+.sect-two{
+   background-color: #edf7fa;
+   padding: 50px 0;
+}
+.life{
+   display:flex;
+}
