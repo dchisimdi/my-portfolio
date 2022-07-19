@@ -32,7 +32,7 @@ img{
 height:200px;
    width:200px;
 }
-section{
+.sect-one{
    display: flex;
    padding: 40px;
 }
@@ -49,4 +49,10 @@ background-color: red;
 border: 500px;
 padding: 20px;
 }
-   
+   #lion{
+      display: flex;
+   }
+   #sect-two-first-child{
+      display:flex;
+      justify-content: space-between;
+   }
