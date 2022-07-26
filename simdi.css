@@ -13,8 +13,8 @@
    color: blue
 }
 
-h2 {
-   font-size: 40px;
+.design-h2 {
+   font-size: 30px;
 }
 
 .home-ul li {
@@ -78,4 +78,20 @@ h2 {
 }
 .life{
    display:flex;
+}
+.blog-child {
+   display: flex;
+}
+.blog-button-parent {
+   display: flex;
+}
+.blog-button {
+   background: pink;
+   border-radius: 16px;
+   color: black
+   font-size- 18px;
+   font-weight: 900;
+   /* padding: 0px 13px; */
+   margin-right: 20px;
+   /* border-style: none; */
 }
